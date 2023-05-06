@@ -1,0 +1,15 @@
+{
+  "name": "Random Activity Generator",
+  "version": "1.0.0",
+  "description": "This extension generates random activities to do when the user is feeling bored or uninspired. The activities can range from simple tasks like taking a walk or drinking a glass of water to more creative activities like writing a poem or drawing a picture and so on.",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "192": "logo.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
